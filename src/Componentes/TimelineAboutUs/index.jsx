@@ -1,5 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,8 +6,9 @@ import 'react-vertical-timeline-component/style.min.css';
 import ahk from '../../Assets/icon_main_64.png';
 import sm from '../../Assets/SM_logo.png';
 import python from '../../Assets/Python_logo.png';
+import './style.sass';
 
-export default function Timeline() {
+export default function TimelineAboutUs() {
   function Image(src, alt, className) {
     return (
       <>
@@ -42,22 +41,23 @@ export default function Timeline() {
           Langage : Node.js, Express, React, MySQL
         </h4>
 
-        <p>Reconversion</p>
         <p>
-          Formation développeur Web intensive, La formation s’articule de
+          Formation développeur Web intensive,&nbsp;la formation s’articule de
           manière AGILE autour de :
         </p>
-        <ul>
-          <li>
-            3 projet de site Web, 2 fictif, 1 troisième pour un porteur de
-            projet.
-          </li>
-          <li>2 hackathon de 48h - Partenaria avec MANOMANO</li>
-          <li>
-            Plusieurs dizaines d’heures de cours sur les technologies en cours
-            d’apprenticage assurer par un formateur.
-          </li>
-        </ul>
+        <p className="list">
+          <ul>
+            <li>
+              3 projet de site Web, 2 fictif, 1 troisième pour un porteur de
+              projet.
+            </li>
+            <li>2 hackathon de 48h - Partenaria avec MANOMANO</li>
+            <li>
+              Plusieurs dizaines d’heures de cours sur les technologies en cours
+              d’apprenticage assurer par un formateur.
+            </li>
+          </ul>
+        </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -73,10 +73,10 @@ export default function Timeline() {
           Apprentissage de Python sur mon temps libre avec comme documentation
           des vidéos YouTube et Tutoriel OpenClassrooms
         </p>
-        <p>
+        <p className="list">
           <h4>Type de projet</h4>
           <ul>
-            <li>Web scrapting avec Ssélénium et BeautifulSoupebeautiful</li>
+            <li>Web scrapting avec Ssélénium et BeautifulSoupe</li>
             <li>Script avec PyAutoGUI Windows</li>
             <li>Jeux vidéo avec PyGame </li>
           </ul>
@@ -108,7 +108,7 @@ export default function Timeline() {
           Windows, cette outil a la particularité de ne pas avoir besoin des
           droits administrateurs pour être exécuté.
         </p>
-        <p>
+        <p className="list">
           <h4>Type de projet</h4>
           <ul>
             <li>
@@ -138,12 +138,12 @@ export default function Timeline() {
             target="_blank"
             rel="noreferrer"
           >
-            &nbsp;SuperMacro
+            &nbsp;SuperMacro&nbsp;
           </a>
           les premier script consisté à se déplacer dans un jeu, réagir à des
           événements apparaissant sur l’écran…
         </p>
-        <p>
+        <p className="list">
           <h4>Type de projet</h4>
           <ul>
             <li>

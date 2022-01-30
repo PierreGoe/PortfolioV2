@@ -1,11 +1,11 @@
 import NavHeaderBar from 'Componentes/NavHeaderBar';
-import Timeline from 'Componentes/Timeline';
+import TimelineAboutUs from 'Componentes/TimelineAboutUs';
 
 export default function AboutUs() {
   return (
     <>
       <NavHeaderBar />
-      <Timeline />
+      <TimelineAboutUs />
     </>
   );
 }
