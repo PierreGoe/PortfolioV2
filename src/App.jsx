@@ -1,5 +1,15 @@
+import { Routes, Route } from 'react-router-dom';
+import AboutUs from 'Pages/AboutUs';
+import HomePage from './Pages/HomePage';
+import 'App.sass';
+
 function App() {
-  return <h1>Hello there!</h1>;
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/aboutus" element={<AboutUs />} />
+    </Routes>
+  );
 }
 
 export default App;

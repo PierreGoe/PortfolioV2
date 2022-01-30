@@ -1,0 +1,35 @@
+@import "../../styles/_variable"
+
+.container 
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  height: 95vh
+  
+.avatar
+  img
+    width: clamp(300px,50vw,600px)
+.bigTitle
+  h1
+    font-size: clamp(35px,6vw,90px)
+  p
+    font-size: clamp(14px,2vw,20px)
+    font-family: $fontPrimary
+    padding: 0.5vh
+    margin-left: 1vw
+
+
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) 
+  .container 
+    display: flex
+    flex-direction: column
+  .bigTitle
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    padding-bottom: 3vh
