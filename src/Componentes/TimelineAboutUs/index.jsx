@@ -35,7 +35,7 @@ export default function TimelineAboutUs() {
           Reconversion professionnelle, Web développeur
         </h3>
         <h4 className="vertical-timeline-element-subtitle">
-          Organisme: Wild Code School - boot Camp 5 mois
+          Organisme : Wild Code School - boot camp 5 mois
         </h4>
         <h4 className="vertical-timeline-element-subtitle">
           Langage : Node.js, Express, React, MySQL
@@ -48,13 +48,13 @@ export default function TimelineAboutUs() {
         <section className="list">
           <ul>
             <li>
-              3 projet de site Web, 2 fictif, 1 troisième pour un porteur de
+              3 projets de site Web, 2 fictifs, 1 troisième pour un porteur de
               projet.
             </li>
-            <li>2 hackathon de 48h - Partenaria avec MANOMANO</li>
+            <li>2 hackathons de 48 h - Partenariat avec ManoMano</li>
             <li>
               Plusieurs dizaines d’heures de cours sur les technologies en cours
-              d’apprenticage assurer par un formateur.
+              d’apprentissage assurer par un formateur.
             </li>
           </ul>
         </section>
@@ -76,7 +76,7 @@ export default function TimelineAboutUs() {
         <section className="list">
           <h4>Type de projet</h4>
           <ul>
-            <li>Web scrapting avec Ssélénium et BeautifulSoupe</li>
+            <li>Web scrapting avec Sélénium et BeautifulSoupe</li>
             <li>Script avec PyAutoGUI Windows</li>
             <li>Jeux vidéo avec PyGame </li>
           </ul>
@@ -89,7 +89,7 @@ export default function TimelineAboutUs() {
         contentArrowStyle={{ borderRight: `7px solid  ${mainColor}` }}
         date="2013"
         iconStyle={{ background: '#e5e5e5' }}
-        icon={Image(ahk, 'test', 'icone')}
+        icon={Image(ahk, 'AHK icone', 'icone')}
       >
         <h3 className="vertical-timeline-element-title">
           Script plus Complexe
@@ -104,8 +104,8 @@ export default function TimelineAboutUs() {
           >
             AutoHotKey
           </a>
-          , c’est un langage open source permettant d’écrire des script pour
-          Windows, cette outil a la particularité de ne pas avoir besoin des
+          , c’est un langage open source permettant d’écrire des scripts pour
+          Windows, cet outil a la particularité de ne pas avoir besoin des
           droits administrateurs pour être exécuté.
         </section>
         <section className="list">
@@ -115,7 +115,7 @@ export default function TimelineAboutUs() {
               Scripts d’automatisation de tâches rébarbatif sur les logiciels
               interne
             </li>
-            <li>Raccourci clavier custome</li>
+            <li>Raccourci clavier custom</li>
           </ul>
         </section>
       </VerticalTimelineElement>
@@ -140,7 +140,7 @@ export default function TimelineAboutUs() {
           >
             &nbsp;SuperMacro&nbsp;
           </a>
-          les premier script consisté à se déplacer dans un jeu, réagir à des
+          les premiers scripts consisté à se déplacer dans un jeu, réagir à des
           événements apparaissant sur l’écran…
         </p>
         <section className="list">
@@ -148,8 +148,8 @@ export default function TimelineAboutUs() {
           <ul>
             <li>
               Déplacer automatique dans un jeu, réagir à des événements
-              apparaissant sur l’écran, connection automatique de plusieur
-              compte.
+              apparaissant sur l’écran, connexion automatique de plusieurs
+              comptes.
             </li>
           </ul>
         </section>
