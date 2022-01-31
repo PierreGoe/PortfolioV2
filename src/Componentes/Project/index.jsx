@@ -12,6 +12,7 @@ export default function Project({
   linkCode,
   link,
   icon,
+  date,
 }) {
   function Color(techName) {
     let color = '';
@@ -51,7 +52,7 @@ export default function Project({
       className="vertical-timeline-element--work"
       contentStyle={{ background: mainColor }}
       contentArrowStyle={{ borderRight: `7px solid  ${mainColor}` }}
-      date="sept. 2021"
+      date={date}
       iconStyle={{ background: '#e5e5e5' }}
       icon={Image('logo of tech', 'icone')}
     >

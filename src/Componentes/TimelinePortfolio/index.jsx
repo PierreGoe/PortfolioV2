@@ -16,6 +16,7 @@ export default function TimelineAboutUs() {
         linkCode="https://github.com/WildCodeSchool/p3-g2-sept21-lille-reactJs-eQay-frontend"
         link="https://github.com/WildCodeSchool/p3-g2-sept21-lille-reactJs-eQay-frontend"
         icon="https://img.icons8.com/plasticine/100/000000/react.png"
+        date="decembre - 2021"
       />
       <Project
         key="2"
@@ -26,6 +27,7 @@ export default function TimelineAboutUs() {
         linkCode="https://github.com/WildCodeSchool/p3-g2-sept21-lille-eQay-backend"
         link={null}
         icon="https://img.icons8.com/windows/32/000000/nodejs.png"
+        date="decembre - 2021"
       />
     </VerticalTimeline>
   );
