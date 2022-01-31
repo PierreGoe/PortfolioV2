@@ -45,7 +45,7 @@ export default function TimelineAboutUs() {
           Formation développeur Web intensive,&nbsp;la formation s’articule de
           manière AGILE autour de :
         </p>
-        <p className="list">
+        <section className="list">
           <ul>
             <li>
               3 projet de site Web, 2 fictif, 1 troisième pour un porteur de
@@ -57,7 +57,7 @@ export default function TimelineAboutUs() {
               d’apprenticage assurer par un formateur.
             </li>
           </ul>
-        </p>
+        </section>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -73,14 +73,14 @@ export default function TimelineAboutUs() {
           Apprentissage de Python sur mon temps libre avec comme documentation
           des vidéos YouTube et Tutoriel OpenClassrooms
         </p>
-        <p className="list">
+        <section className="list">
           <h4>Type de projet</h4>
           <ul>
             <li>Web scrapting avec Ssélénium et BeautifulSoupe</li>
             <li>Script avec PyAutoGUI Windows</li>
             <li>Jeux vidéo avec PyGame </li>
           </ul>
-        </p>
+        </section>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -95,7 +95,7 @@ export default function TimelineAboutUs() {
           Script plus Complexe
         </h3>
         <h4 className="vertical-timeline-element-subtitle">Outil : AHK </h4>
-        <p>
+        <section>
           Utilisation d’
           <a
             href="https://www.autohotkey.com/"
@@ -107,8 +107,8 @@ export default function TimelineAboutUs() {
           , c’est un langage open source permettant d’écrire des script pour
           Windows, cette outil a la particularité de ne pas avoir besoin des
           droits administrateurs pour être exécuté.
-        </p>
-        <p className="list">
+        </section>
+        <section className="list">
           <h4>Type de projet</h4>
           <ul>
             <li>
@@ -117,7 +117,7 @@ export default function TimelineAboutUs() {
             </li>
             <li>Raccourci clavier custome</li>
           </ul>
-        </p>
+        </section>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -143,7 +143,7 @@ export default function TimelineAboutUs() {
           les premier script consisté à se déplacer dans un jeu, réagir à des
           événements apparaissant sur l’écran…
         </p>
-        <p className="list">
+        <section className="list">
           <h4>Type de projet</h4>
           <ul>
             <li>
@@ -152,7 +152,7 @@ export default function TimelineAboutUs() {
               compte.
             </li>
           </ul>
-        </p>
+        </section>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

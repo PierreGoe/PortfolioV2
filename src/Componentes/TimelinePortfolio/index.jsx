@@ -1,37 +1,32 @@
 import Project from 'Componentes/Project';
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
+import { VerticalTimeline } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 import './style.sass';
 
 export default function TimelineAboutUs() {
-  function Image(src, alt, className) {
-    return (
-      <>
-        <img src={src} alt={alt} className={className} />
-      </>
-    );
-  }
-  const mainColor = 'rgb(255, 255, 255)';
   return (
     <VerticalTimeline lineColor="black">
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        contentStyle={{ background: mainColor }}
-        contentArrowStyle={{ borderRight: `7px solid  ${mainColor}` }}
-        date="sept. 2021"
-        iconStyle={{ background: '#e5e5e5' }}
-        icon={Image(
-          'https://img.icons8.com/plasticine/100/000000/react.png',
-          'test',
-          'icone'
-        )}
-      >
-        <Project name="a" sub="a" tech={['a']} desc="a" />
-      </VerticalTimelineElement>
+      <Project
+        key="1"
+        name="eQAI"
+        sub="Map interactive Leaflet"
+        tech={['React', 'Leaflet']}
+        desc=" Projet pédagogique n°3 de la WildCodeSchool, Site Web pour l'assosiation eQAI, Affichage des donnée mise a disposition par  l'API CRUD eQai."
+        linkCode="https://github.com/WildCodeSchool/p3-g2-sept21-lille-reactJs-eQay-frontend"
+        link="https://github.com/WildCodeSchool/p3-g2-sept21-lille-reactJs-eQay-frontend"
+        icon="https://img.icons8.com/plasticine/100/000000/react.png"
+      />
+      <Project
+        key="2"
+        name="eQAI - API"
+        sub="API pour eQAI"
+        tech={['Node.js', 'Express', 'MySQL', 'Firebase']}
+        desc=" Projet pédagogique n°3 de la WildCodeSchool, API CRUD regroupant des captuers extérieur fourni par Atmos France, ainsi que les données des capteur intérieur de la startup `Le Capteur Français` ces données sont agrégé dans une base de données MySQL."
+        linkCode="https://github.com/WildCodeSchool/p3-g2-sept21-lille-eQay-backend"
+        link={null}
+        icon="https://img.icons8.com/windows/32/000000/nodejs.png"
+      />
     </VerticalTimeline>
   );
 }
